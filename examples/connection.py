@@ -3,7 +3,7 @@ Examples using a connection
 """
 from __future__ import print_function
 from pynamodb.connection import Connection
-
+#test autopush
 # Get a connection
 conn = Connection(host='http://localhost:8000')
 print(conn)
